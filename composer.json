@@ -1,0 +1,22 @@
+{
+    "name": "archer-wong/larapackage",
+    "description": "how to develop a laravel package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "archer-wong",
+            "email": "wong_chiu@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.4",
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-0": {
+            "ArcherWong\\LaraPackage": "src/"
+        }
+    }
+}
