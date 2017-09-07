@@ -21,6 +21,12 @@ class LaraPackageProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/../../views'=>base_path('resources/views/vendor/lara-package'),
         ]);
+        $this->publishes([
+            __DIR__.'/../../index'=>base_path('resources/views/index'),
+        ]);
+        $this->publishes([
+            __DIR__.'/../../assets'=>base_path('resources/assets'),
+        ]);
     }
 
     /**
